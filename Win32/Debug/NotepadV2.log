@@ -1,0 +1,38 @@
+﻿Build started 04/12/2015 20:27:20.
+     1>Project "D:\_Project_Program\QT\NotepadV2\NotepadV2.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Win32\Debug\NotepadV2.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       CustomBuild:
+         Moc'ing font.h...
+         Moc'ing notepad.h...
+         Uic'ing font.ui...
+         Uic'ing notepad.ui...
+       ClCompile:
+         D:\ProgramSetup\VS10\VC\bin\CL.exe /c /I. /I..\..\..\programsetup\qtvs\5.5\msvc2010\include /I..\..\..\programsetup\qtvs\5.5\msvc2010\include\QtWidgets /I..\..\..\programsetup\qtvs\5.5\msvc2010\include\QtGui /I..\..\..\programsetup\qtvs\5.5\msvc2010\include\QtANGLE /I..\..\..\programsetup\qtvs\5.5\msvc2010\include\QtCore /Idebug /I. /I"..\..\..\programsetup\qtvs\5.5\msvc2010\mkspecs\win32-msvc2010" /I.\GeneratedFiles /Zi /nologo /W3 /WX- /Od /Oy- /D _WINDOWS /D UNICODE /D WIN32 /D QT_WIDGETS_LIB /D QT_GUI_LIB /D QT_CORE_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"Win32\Debug\\" /Fd"Win32\Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Debug\moc_font.cpp Debug\moc_notepad.cpp font.cpp main.cpp notepad.cpp -w34100 -w34189 -w44996 
+         moc_font.cpp
+         moc_notepad.cpp
+         font.cpp
+         main.cpp
+         notepad.cpp
+     1>notepad.cpp(29): warning C4100: 'argv' : unreferenced formal parameter
+     1>notepad.cpp(29): warning C4100: 'argc' : unreferenced formal parameter
+     1>notepad.cpp(64): warning C4100: 'e' : unreferenced formal parameter
+         Generating Code...
+       Link:
+         D:\ProgramSetup\VS10\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"debug\\NotepadV2.exe" /NOLOGO /LIBPATH:D:\ProgramSetup\QtVs\5.5\msvc2010\lib /LIBPATH:D:/programsetup/qtvs/5.5/msvc2010/lib /LIBPATH:D:\ProgramSetup\QtVs\5.5\msvc2010\lib D:\ProgramSetup\QtVs\5.5\msvc2010\lib\qtmaind.lib shell32.lib D:/programsetup/qtvs/5.5/msvc2010/lib\Qt5Cored.lib D:\ProgramSetup\QtVs\5.5\msvc2010\lib\Qt5Widgetsd.lib D:\ProgramSetup\QtVs\5.5\msvc2010\lib\Qt5Guid.lib D:\ProgramSetup\QtVs\5.5\msvc2010\lib\Qt5Cored.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Win32\Debug\NotepadV2.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\_Project_Program\QT\NotepadV2\debug\NotepadV2.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /MACHINE:X86 Win32\Debug\moc_font.obj
+         Win32\Debug\moc_notepad.obj
+         Win32\Debug\font.obj
+         Win32\Debug\main.obj
+         Win32\Debug\notepad.obj "/MANIFESTDEPENDENCY:type='win32' name='Microsoft.Windows.Common-Controls' version='6.0.0.0' publicKeyToken='6595b64144ccf1df' language='*' processorArchitecture='*'" 
+         LINK : debug\\NotepadV2.exe not found or not built by the last incremental link; performing full link
+         NotepadV2.vcxproj -> D:\_Project_Program\QT\NotepadV2\debug\NotepadV2.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"debug\\NotepadV2.exe;#1" /manifest Win32\Debug\NotepadV2.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Win32\Debug\NotepadV2.unsuccessfulbuild".
+         Touching "Win32\Debug\NotepadV2.lastbuildstate".
+     1>Done Building Project "D:\_Project_Program\QT\NotepadV2\NotepadV2.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:10.14
